@@ -1,0 +1,298 @@
+body{
+  background: url(../img/mcover.jpg);
+  color:white;
+  line-height:1.6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0; 
+}
+
+.navbar{
+	background-color: blue;
+	height: 7vh;
+	display: flex;
+	align-items: center;
+	font-weight: 700;
+
+}
+
+.navbar .cources{
+padding: 0 40px;
+}
+
+.navbar .tsearch{
+width: 50vh;
+height: 3.5vh;
+}
+
+.navbar .sicon{
+/*nothing here*/
+}
+
+.navbar .links{
+ display: flex;
+ margin-left: 60px;
+ width: 50%;
+ justify-content: space-around;
+}
+
+.navbar.hm{
+padding-right: 20px;
+}
+
+.navbar a{
+	color:white;
+	text-decoration: none;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.navbar a:hover{
+	color: red;
+	cursor: pointer;
+}
+
+.navbar .signout{
+	padding: 8px 18px;
+	font-weight: 600;
+	border: 2px white solid;
+	border-radius: 10px;
+	background-color: red;
+	outline: none;
+	cursor: pointer;
+}
+.chome{
+ height: 100vh;
+ display: block;
+}
+
+.boxes{
+	width:140vh;
+	height: 40vh;
+	color: black;
+	display: flex;
+	margin: 50px 150px 30px 150px;
+}
+
+.boxes .box1,.boxes .box2,.boxes .box3{
+	margin-top: 30px;
+	width: 50vh;
+	background-color: white;
+	height: 30vh;
+	border: 1px grey solid;
+	text-align: center;
+	font-weight: 500;
+	font-size: 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.boxes .box1:hover,.boxes .box2:hover,.boxes .box3:hover{
+	transform: scale(1.2);
+}
+
+.userinfosection{
+}
+.userinfosection .sharearticle{
+	width: 80vh;
+	height: 15vh;
+	background-color: white;
+    margin: 0 0 0 380px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+.userinfosection .sharearticle .textsec{
+	height: 8vh;  
+}
+
+.userinfosection .sharearticle .textsec .share{
+	height: 7vh;
+	width: 80vh;
+	border: 1px grey solid;
+
+}
+
+.userinfosection .sharearticle button{
+	   padding: 8px 15px;
+	   margin: 6px 10px 0 10px;
+	   border: none;
+	   outline: none;
+	   cursor:pointer;
+	   border-radius: 10px;
+}
+
+.userinfosection .sharearticle .warticle{
+	margin-left: 30px;
+}
+
+.userinfosection .sharearticle .video{
+	margin-right: 90px;
+}
+
+.userinfosection .block{
+	margin-top: 40px;
+	width: 60%;
+	margin: auto;
+	/*background: grey;*/
+	height: 400vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color:black;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.userinfosection .block p{
+	font-size: 50px;
+	font-weight: 500;
+}
+
+.boxes .box1 .r1,.boxes .box2 .r1{
+	width: 50vh;
+	height: 29vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+}
+
+.userinfosection .block #bl{
+background: white;
+height: 60vh;
+}
+
+
+
+
+
+
+
+/* categories*/
+
+.ccategories{
+	/*background-color: grey;*/
+	height: 100vh;
+	padding-top: 15px;
+	display: none;
+}
+
+.ccategories p{
+	text-align: center;
+	padding-top: 20px;
+	font-size: 27px;
+	font-weight: bold;
+	color: black;
+}
+
+.ccategories #cbox:hover{
+	transform: scale(1.2);
+}
+
+.ccategories .firstrow{
+	height: 30vh;
+	/*background-color: white;*/
+	margin:11px 20px 0 15px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.ccategories .firstrow .r1{
+	width: 40vh;
+	height: 25vh;
+}
+
+
+.ccategories .firstrow .col1,.ccategories .firstrow .col2,.ccategories .firstrow .col3,.ccategories .firstrow .col4{
+	height: 25vh;
+	background-color: white;
+	margin:15px 20px 0 15px;
+	width:20%;
+}
+
+.ccategories .secondrow{
+	height: 30vh;
+	/*background-color: white;*/
+	margin:11px 20px 0 15px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.ccategories .secondrow .r2{
+	width: 40vh;
+	height: 25vh;
+}
+
+.ccategories .secondrow .col1,.ccategories .secondrow .col2,.ccategories .secondrow .col3,.ccategories .secondrow .col4{
+	height: 25vh;
+	background-color: white;
+	margin:20px 20px 0 15px;
+	width:20%;
+}
+
+.ccategories .thirdrow{
+	height: 30vh;
+	/*background-color: white;*/
+	margin:11px 20px 0 15px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.ccategories .thirdrow .r3{
+	width: 40vh;
+	height: 25vh;
+}
+
+.ccategories .thirdrow .col1,.ccategories .thirdrow .col2,.ccategories .thirdrow .col3,.ccategories .thirdrow .col4{
+	height: 25vh;
+	background-color: white;
+	margin:20px 20px 0 15px;
+	width:20%;
+}
+
+
+/*for jobs*/
+.jobs{
+	display: block;
+	display: none;
+	width: 80%;
+	margin: auto;
+	font-weight: 400;
+}
+
+.jobs p{
+	font-size: 3em;
+}
+
+.jobs .buttn{
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.jobs .buttn button{
+	width: 180px;
+	height: 30px;
+}
+.jobs .cv{
+	font-size: 2em;
+	margin-bottom: 30px;
+}
+
+.jobs .buttn .ifile{
+	font-size: 1em;
+}
+
+.jobs .submitcv{
+	font-size: 1em;
+}
+
+footer{
+	height: 20vh;
+}
+.userinfosection .sharearticle .post{
+	background-color: blue;
+	border-radius: 5px;
+}

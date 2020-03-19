@@ -1,0 +1,235 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+  background-color:#d3d3d3;
+  color:#485e74;
+  line-height:1.6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /*padding:1em;*/
+}
+
+.h1
+{
+	font-family: 'Oswald', sans-serif;
+}
+.classheader{
+ margin: 0;
+ align-items: center;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ opacity: 100%;
+}
+
+.classheader .logo{
+	font-size: 1.2em;
+	height: 10vh;
+	padding: 5px 0 5px 0px; 
+	text-align: center;
+}
+
+.classheader .navbar{
+	background-color: yellow;
+	border: 2px black solid;
+	margin-right: 40px; 
+	/*padding: 10px 100px;*/
+	width: 50%;
+	height: 5vh;
+	word-spacing: 5px;
+	align-items: center;
+}
+
+.classheader .navbar a{
+	text-decoration: none;
+	color:gray;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-right:  20px;
+}
+
+.classheader .navbar button{
+	margin-right: 20px; 
+	padding: 10px 20px;
+	border: none;
+}
+
+.classheader .navbar .signin{
+	background-color: red;
+}
+
+
+/*the signup form*/
+.navbar1{
+	display: flex;
+	color: #444222;
+	justify-content: space-around;
+	width: 50%;
+	font-size: 20px;
+}
+
+.navbar1 .semail{
+ opacity: 0.6;
+}
+
+.navbar1 .spassword{
+opacity: 0.6;
+}
+
+.navbar1 button{
+padding:5px 15px;
+margin-left: 10px;
+border: none;
+border-radius: 3px;
+cursor:pointer;
+}
+
+.navbar1 button:hover{
+background-color: blue;
+}
+
+
+.showcase{
+	content: '';
+	height: 100vh;
+	width: 100%;
+	background-image: url('../img/showcaseimg.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+	filter: blur(10px);
+	-webkit-filter:blur(10px);
+	transition: all 800ms; 
+	margin-bottom: 50px;
+}
+
+.showcase:hover{
+	filter: blur(0px);
+	-webkit-filter:blur(0px); 
+}
+
+
+.wrapform{
+	width:60vh;
+	height: 52vh;
+	background-color: #757575;
+	margin-right:100px;
+	margin-top:100px;
+	border-radius: 10px;
+	box-shadow: 6px 6px 2px 1px rgba(211, 211, 211, .2);
+}
+
+.wf{
+	width: 100%;
+	color: black;
+	display: flex;
+	justify-content: flex-end; 
+}
+
+.wf .wrapform p{
+	color: black;
+	text-align: center;
+	font-size: 25px;
+	margin-top: 20px;
+	font-weight: 400;
+}
+
+
+.wrapform .fw div{
+	margin: 20px;
+}
+
+.wrapform .fw .fname{
+	margin-left: 70px;
+	padding-top: 10px;
+}
+
+.wrapform .fw .lname{
+	margin-left: 70px;
+}
+
+.wrapform .fw .email{
+	margin-left: 90px;
+}
+
+.wrapform .fw .password{
+	margin-left: 80px;
+}
+
+
+
+.wrapform .fw button{
+padding: 5px 10px;
+margin: 0 20px;
+outline: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.wrapform .fw button:hover{
+background-color: blue;
+}
+
+.wrapform .fw .submit{
+	margin-left: 140px;
+}
+
+
+.quotebody p{
+	text-align: center;
+	font-size: 2.2rem;
+	background-color: white;
+	height: 15vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.medcategories{
+	height: 70vh;
+	margin-top: 50px; 
+ 	display: flex;
+ 	justify-content: space-around;
+ 	margin: 0 40px;
+ 	background-color: white; 
+}
+
+.medcategories .category1, .medcategories .category2, .medcategories .category3{
+ margin-top: 40px;
+ width: 25%;
+}
+
+.discription{
+	background-color:#d3d3d3;
+	display: flex;
+	align-items: center;
+	justify-content:space-around;
+	height: 40vh;
+}
+
+.discription .abt{
+	margin-left: 100px;
+	width: 40%;
+}
+
+
+footer{
+	background-color: #aaaa00;
+	height: 20vh;
+}
+
+footer ul{
+	display: flex;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+footer ul li{
+	display: flex;
+	text-decoration: none;
+	padding: 20px 80px;
+	font-size: 1.2em;
+}
+

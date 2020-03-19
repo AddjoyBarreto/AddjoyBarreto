@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/homecss.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+<body>
+	 <!--- image section-->
+ <div class="showcase">
+	<div class="classheader">  		
+    
+      <div class="logo">
+	  <h1 class="h1">The Learning App</h1>
+      </div>
+      <!---the nav bar   do a login form -->
+     <!-- <div class="navbar">
+	  <a href="#">Categories</a>
+	  <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+	  <button class="login">Log in</button>
+	  <button class="signup">Sign Up</button>
+      </div>
+  -->
+    <div class="navbar1">
+     <div class="semail">
+     <label>Email</label>
+	 <input type="email" name="semail" id="inp">
+	 </div>
+	  <div class="spassword">
+     <label>Password</label>
+	 <input type="password" name="spassword" id="inp">
+	 </div>
+	 <a href="mainpage.html"><button class="signup">Login</button></a> 
+      </div>
+    </div>
+
+    <!--- create a new account form-->
+    <div class="wf">
+     <div class="wrapform">
+     	<p>Create a new Account</p>
+      <form class="fw" method="mainpage.html">
+    	<div class="fname">
+    	<label>First Name</label>
+    	<input type="text" name="fname" required>
+    	</div>
+    	<div class="lname">
+    	<label>Last Name</label>
+    	<input type="text" name="lname" required>
+    	</div>
+    	<div class="email">
+    	<label>Email id</label>
+    	<input type="email" name="email" required>
+    	</div>
+    	<div class="password">
+    	<label>Password</label>
+    	<input type="password" name="password" required>
+    	</div>
+    	<div class="confirmpassword">
+    	<label>Confirm Password</label>
+    	<input type="password" name="confirmpassword" required>
+    	</div>
+    	<a href="mainpage.html"><button type="submit" class="submit">Submit</button></a>
+    	<button type="Reset" class="Reset" >Reset</button>
+      </form>
+     </div>
+    </div>
+</div>
+
+     <div class="quotebody"><p>Develop a passion for learning.If you do, you will never cease to grow.</p></div>
+<!--- the 3 trending categories -->
+<div class="medcategories">
+	<div class="category1">
+		<img src="./img/html5_logo.png" >
+		<h3>HTML5 MarkUp</h3>
+		<p>HTML 5 is a markup language used for structuring and presenting content on the World Wide Web. It is the fifth and current major version of the HTML standard, and subsumes XHTML.</p>
+	</div>
+	<div class="category2">
+		<img src="./img/css-logo.png">
+		<h3>CSS3 Styling</h3>
+		<p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+	</div>
+	<div class="category3">
+		<img src="./img/nodejs.png" width="70%">
+		<h3>Node js</h3>
+		<p>Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser.</p>
+	</div>
+</div>
+
+<!--- some discription section -->
+<div class="discription">
+		<div class="center icon">
+		<i class="fas fa-laptop-code fa-10x"></i>
+		</div>
+		<div class="abt" id="iabt">
+			<h3>About Us</h3>
+			<p>We are a motivated collective that insists on pushing the boundries on how learning is done. this approach has given us the key to help other gain the skills to beconme better at whatever they desire. witha little bit of help from us here at the learning app... everyone will have what it takes to be the best they can.</p>
+		</div>
+</div>
+
+<footer>
+	<ul id="uls">	
+	<li>About company</li>
+	<li>Our Services</li>
+    </ul>
+</footer>
+
+<script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+<script src="./jsfile/logjs.js"></script>
+</body>
+</html>
